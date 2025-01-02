@@ -1,11 +1,12 @@
+import Card from "@/components/Card";
 import Box from "@mui/material/Box";
-import Typography from "@mui/material/Typography";
+
 import React from "react";
 
 const Home = () => {
   return (
-    <Box>
-      <Typography variant="h1">Home</Typography>
+    <Box className="container" sx={{backgroundColor: "#141414",display:"flex",justifyContent:"center" ,alignItems:"center" ,marginLeft:"auto",marginRight:"auto"}}>
+      <Card/>
     </Box>
   );
 };
